@@ -1,0 +1,39 @@
+body {
+	background: linear-gradient(45deg, pink 1%, lightGreen 99%);
+	background-size: 100% 200%;
+}
+
+.conteiner{
+    background:rgba(0,0,0,0.1);
+}
+
+div{
+	border:1px solid black;
+	margin:5px;
+}
+
+input.inp{
+	border:none;
+	border-bottom: 2px solid black;
+	border-radius: 0px;
+	background: rgba(255,255,255,0.3);
+	margin-left: 5px;
+}
+
+#button{
+	display: inline-block;
+	padding: 5px;
+	cursor: default;
+}
+
+#button:hover{
+	background: rgba(255,192,203,0.5);
+}
+
+.active{
+    background: rgba(255,255,255,0.2);
+}
+
+.complited{
+    background: rgba(255,255,255,0.2);
+}
